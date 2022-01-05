@@ -14,6 +14,7 @@ def main(s1,s2,s3):
     ans=""
     x1="["
     x2="]"
+    print(a,b,c)
     if a!=1:
         ans=x1+s2+s3+x2
     if b!=1:
@@ -24,4 +25,4 @@ def main(s1,s2,s3):
         x1+x2
 
     return ans
-print(main("ab", "abc", "abcd"))
+print(main("abc", "abcd", "abcde"))
