@@ -6,5 +6,5 @@ def main(a):
     Returns:
         True or False
     """
-    return print(len(a)%2==0)
-main("johny")
+    return len(a)%2==0
+print(main("johny"))
